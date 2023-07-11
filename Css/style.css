@@ -162,7 +162,7 @@ span{
   }
   
   .background__container{
-    background-image: url('/images/Flower Asset/Rectangle 9.png');
+    background-image: url('../images/Rectangle\ 9.png');
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
