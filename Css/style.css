@@ -87,3 +87,49 @@
     color: black;
     padding: 20px;
 }
+/* hot deal sale up  */
+span{
+    color:#E55473;
+    font-weight: bolder;
+}
+.bg_background_hot{   
+       background: rgba(229, 84, 115, 0.05);
+       height: 500px;
+       padding: 90px;
+}
+.hot_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.deal_container h1{
+    text-align: center;
+
+}
+.deal_container p{
+    margin-bottom: 10px;
+}
+.btn_hero_1{
+    
+    width:100px ;
+    height: 50px;
+    background: #E55473;
+    border: none;
+    border-radius: 5px;
+    margin-top:10px;
+    
+    
+    /* sign up  */
+}
+.Instagram_container h1 {
+    text-align: center;
+}
+.Instagram_container p {
+    margin-bottom: 10px;
+}
+.social_container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
