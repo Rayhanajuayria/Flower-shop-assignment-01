@@ -111,6 +111,7 @@ span{
 .deal_container p{
     margin-bottom: 10px;
 }
+    /* Hot deal section Button */
 .btn_hero_1{
     
     width:100px ;
@@ -125,22 +126,88 @@ span{
     
     /* sign up  */
 }
-.social_background_insta{
+/* start Instagram Section */
+.inst__container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 80px;
+      
+ }
+.text-container__insta{
+   text-align: center;
+   padding-bottom: 30px;
+ }
+ .photo__container{
+  display: flex;
+   justify-content: center;
+  align-items: center;
+ gap: 20px;
+ }
+ .photo__box{
+  width: 25%;
+}
+ .photo__box img{
+   width: 250px;
+ }
+ /* End the instagram section */
+ .background__container__main{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+     margin: 100px;
+  
+  }
+  
+  .background__container{
+    background-image: url('/images/Flower Asset/Rectangle 9.png');
+    background-repeat: no-repeat;
+    display: flex;
     flex-direction: column;
-    padding: 90px;
-}
-.Instagram_container {
-    text-align: center;
-}
-.Instagram_container p{
-    font-size: 16px;
-    margin-bottom: 30px;
-}
-.social_picture_container{
-      display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    padding: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-size: 100% auto;
+  
+  }
+  .shopping__content h3{
+      padding: 10px;
+  }
+  .shopping__content p{
+    padding: 10px;
+  }
+  .subscribe__input__filed{
+    display: flex;
+    gap: 4px;
+  }
+  .subscribe__input__filed input{
+     padding: 10px 20px;
+     width: 400px;
+     display: inline-block;
+     border: none;
+     outline: none;
+     
+  }
+  .subscribe__input__filed button{
+    display:inline-block;
+    background: #E55473;
+    width:100px ;
+    height: 50px;
+    border:none;
+    border-radius: 8px;
+  }
+ .flower_description {
+    background-color: burlywood;
+    height: 300px;
     
-}
+ }
+ .Description{
+    text-align: center;
+    margin-top: 20px;
+    gap: 20 px;
+ }
 
