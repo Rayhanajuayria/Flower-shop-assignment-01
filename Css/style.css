@@ -96,6 +96,7 @@ span{
        background: rgba(229, 84, 115, 0.05);
        height: 500px;
        padding: 90px;
+       margin-bottom: 70px;
 }
 .hot_container{
     display: flex;
@@ -118,6 +119,8 @@ span{
     border: none;
     border-radius: 5px;
     margin-top:10px;
+    display: block;
+    margin: auto;
     
     
     /* sign up  */
@@ -133,3 +136,8 @@ span{
     justify-content:space-between;
     align-items: center;
 }
+.latest_deal {
+    text-align: center;
+    
+}
+
