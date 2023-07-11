@@ -125,19 +125,22 @@ span{
     
     /* sign up  */
 }
-.Instagram_container h1 {
-    text-align: center;
-}
-.Instagram_container p {
-    margin-bottom: 10px;
-}
-.social_container{
+.social_background_insta{
     display: flex;
-    justify-content:space-between;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
+    padding: 90px;
 }
-.latest_deal {
+.Instagram_container {
     text-align: center;
+}
+.Instagram_container p{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.social_picture_container{
+      display: flex;
     
 }
 
